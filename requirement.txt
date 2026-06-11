@@ -1,0 +1,8 @@
+ultralytics==8.4.60
+torch==2.11.0
+torchvision
+torchaudio
+opencv-python
+matplotlib
+numpy
+PyYAML
