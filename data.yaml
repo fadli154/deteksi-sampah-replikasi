@@ -1,13 +1,16 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
+train: train/images
+val: valid/images
+test: test/images
 nc: 4
-names: ['kaca', 'kertas', 'logam', 'plastik']
-
+names:
+- kaca
+- kertas
+- logam
+- plastik
 roboflow:
   workspace: sampah-recyclable
   project: sampah-recyclelable
   version: 3
   license: CC BY 4.0
   url: https://universe.roboflow.com/sampah-recyclable/sampah-recyclelable/dataset/3
+path: C:/fadli/sampah recyclelable.v3i.yolov8
